@@ -1,0 +1,55 @@
+.header{
+    height: 80px;
+    border-bottom: 1px solid #828282;
+    
+    
+
+}
+.burger{
+  display: none;
+}
+.header a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    color:  #828282;
+}
+.header a:first-child{
+    color: #070707;
+    font-weight: bold;
+
+}
+.lang{
+    transform: rotate(-90deg);
+    margin: 0;
+    
+}
+.aboutMe{
+    background-color: #F6F6F6;;
+}
+.skillBlock{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.portfolio {
+    background: #f6f6f6;
+  }
+  .contact__icon {
+    height: 40px;
+    gap: 20px;
+  }
+  .social__txt {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+  }
+  @media (min-width: 992px) {
+    .preview-lang {
+      transform: rotate(-90deg);
+    }
+    
+  }
+
+  
